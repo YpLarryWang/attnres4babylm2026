@@ -7,7 +7,7 @@
     "parameters": 62244352,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l16-dynamic-s1337",
-    "revision": "c7cbabe48dc11957eba846d03c9c7cec291578a4",
+    "revision": "35c6d13506e4e831a5d66a51b13178c5e8074d8a",
     "weights_sha256": "e004fda28a8445ce3e9c91aa704952dad5005a1d75428fd4028ec7ebe7375249",
     "weights_file": "model.safetensors"
   },
@@ -19,7 +19,7 @@
     "parameters": 62244352,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l16-dynamic-s1338",
-    "revision": "0ea7a8bdf038993ff2f1fe1df93fda263c2512d1",
+    "revision": "f82be6fba1b3958f01d36f1eb7db36f3952fbdf4",
     "weights_sha256": "f3bfdf9ead0ab2b44bdc735443e341c97b57df4cf9546f38cfdbb6d10c53d420",
     "weights_file": "model.safetensors"
   },
@@ -31,7 +31,7 @@
     "parameters": 62244352,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l16-dynamic-s1339",
-    "revision": "e54b426e749a501acdcb024936691e64c8f005cc",
+    "revision": "2cb7c4ad4e949c9f9ef52571fb1fcb8e64385245",
     "weights_sha256": "06bc14b055541e7e86c656134ccc287521047d5046c07b48519b1f10fb7be06c",
     "weights_file": "model.safetensors"
   },
@@ -43,7 +43,7 @@
     "parameters": 62210560,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l16-baseline-s1337",
-    "revision": "944a41ec7cb14333e9ddc282fa2f501c269dea44",
+    "revision": "5712067cd3d3e6002744b49c435fae1d28618972",
     "weights_sha256": "684cdf0d8148296121bb23690ce0a7b7cc66b16103dc29b7acadfe33a0b0d502",
     "weights_file": "model.safetensors"
   },
@@ -55,7 +55,7 @@
     "parameters": 62210560,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l16-baseline-s1338",
-    "revision": "cf97723412b43800233513f0aeac1b44e5e27d23",
+    "revision": "5801822592df0c867ee6986107f79c818b7807bd",
     "weights_sha256": "9f1580806b130cf4bdd80221f7048dcc53bdfc2c226901acd5d0f28a4523394d",
     "weights_file": "model.safetensors"
   },
@@ -67,7 +67,7 @@
     "parameters": 62210560,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l16-baseline-s1339",
-    "revision": "8a9b2ddbd336067e3379b92151947ed7b7d3a139",
+    "revision": "39ef8f45d4b33a1e0581e62064cbfa84bccf6aac",
     "weights_sha256": "00c9616bde6f72490fabc172c21b8f6165969aff05c1b1780a8d1d0ac7f4bdfb",
     "weights_file": "model.safetensors"
   },
@@ -79,7 +79,7 @@
     "parameters": 116295168,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-dynamic-s1337",
-    "revision": "27aedd395e871b91bc8d8460400b8bb1fa5ec540",
+    "revision": "2432096cebe6dbb2ddd01b6dfb17a6146ee2defe",
     "weights_sha256": "0c8f3c09b60594c0f392512090850b6e29740150f9ab62e58ce134d6a01c309e",
     "weights_file": "model.safetensors"
   },
@@ -91,7 +91,7 @@
     "parameters": 116228608,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-baseline-s1337",
-    "revision": "893ccde6af121375fbddb27e2766f850646f684d",
+    "revision": "d4a41466a47b7dcab471205f02edebc220dac687",
     "weights_sha256": "fa6c204f495217b715648744ead6a44b57fe4ca6439919cc43cc2b49d1156cd1",
     "weights_file": "model.safetensors"
   },
@@ -103,7 +103,7 @@
     "parameters": 116295168,
     "optimizer_updates": 4797,
     "repo_id": "ypwhere/attnres4babylm2026-100m-l32-dynamic-s1337",
-    "revision": "cebaeb94d89ab2f1f75116acf8bdb81003a8db5b",
+    "revision": "ced6cd4b140cb4bf22c947937b0c2e64415945e3",
     "weights_sha256": "43f86fcde4f0108fbd1bf01ff3d6f2d538a8708ceba1623aece994578c9694f0",
     "weights_file": "model.safetensors"
   },
@@ -115,7 +115,7 @@
     "parameters": 116295168,
     "optimizer_updates": 4797,
     "repo_id": "ypwhere/attnres4babylm2026-100m-l32-dynamic-s1338",
-    "revision": "47f6ef102f540437b7a796e6de19de07280a19bb",
+    "revision": "703a21f64ad2ff4b323f131a86afab9e6768b8d7",
     "weights_sha256": "db21e8dc5d2f2599b38c1d62e7540a9a3642b8423e3f97aef9e2e61fa147f3ac",
     "weights_file": "model.safetensors"
   },
@@ -127,7 +127,7 @@
     "parameters": 116228608,
     "optimizer_updates": 4797,
     "repo_id": "ypwhere/attnres4babylm2026-100m-l32-baseline-s1337",
-    "revision": "076ae0a3b13a836cc54709c177bfebfbd54c5410",
+    "revision": "1275d681d0cbe9630ad3194943db7b6b4461140b",
     "weights_sha256": "8e484292966cb683dd20c0b985267c15c7a55df8599417d9e4ee85d530a941d3",
     "weights_file": "model.safetensors"
   },
@@ -139,7 +139,7 @@
     "parameters": 116228608,
     "optimizer_updates": 4797,
     "repo_id": "ypwhere/attnres4babylm2026-100m-l32-baseline-s1338",
-    "revision": "8eaf7e8983c7648a9843224a82a6969ad6816cc3",
+    "revision": "f2c244ff3bc6826b2c495d6ea96afb627bccd687",
     "weights_sha256": "3157b21202ebfab92a795691d3c131a23f856498a56e714e32ca3f0d2097086f",
     "weights_file": "model.safetensors"
   },
@@ -151,7 +151,7 @@
     "parameters": 116295168,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-dynamic-s1338",
-    "revision": "3b809bb3c1063b085552493f99a267c0bf0d8a69",
+    "revision": "52876de32356a3a5a292379cc08f351f13377944",
     "weights_sha256": "b2cb180dbd25805bfd03705c182a715b66bbb313c4234805a7ebdb580965f61d",
     "weights_file": "model.safetensors"
   },
@@ -163,7 +163,7 @@
     "parameters": 116295168,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-dynamic-s1339",
-    "revision": "96ffd20b255aea4948b210da1808ec1ca609b81f",
+    "revision": "cb3e0089e5ebd218ae56b79dc54fedac107aa1f6",
     "weights_sha256": "74cb23102a4c4dc43990b4f2068a0535b4d6a2665db3879b29d7b403c4b53c67",
     "weights_file": "model.safetensors"
   },
@@ -175,7 +175,7 @@
     "parameters": 116228608,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-baseline-s1338",
-    "revision": "7e738cedbe13441bb3f1bb75742e093dc1334d62",
+    "revision": "4c0da8f958fa4ccb76ced95374aca6ab218fc938",
     "weights_sha256": "cac39d5b283fbcd90d0c76ca470b46f754f6036e6e44c3db8ab7a80e18999207",
     "weights_file": "model.safetensors"
   },
@@ -187,7 +187,7 @@
     "parameters": 116228608,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-baseline-s1339",
-    "revision": "c65646eeb338d95747752d221d2d33e31e631d5d",
+    "revision": "5fe9345ba8b6725ac3ac9f7b0a56f917dd350dc0",
     "weights_sha256": "dc3b04eb96825a59ea6f5120f0d24935b9030d918f87962bba63fb53c34b0a0b",
     "weights_file": "model.safetensors"
   },
@@ -199,7 +199,7 @@
     "parameters": 116295168,
     "optimizer_updates": 4797,
     "repo_id": "ypwhere/attnres4babylm2026-100m-l32-dynamic-s1339",
-    "revision": "7fe40168783aacc42d7e75907745d53a240c5846",
+    "revision": "eac72d7076ae894cb1c2221a0b91dc03709878f6",
     "weights_sha256": "8fe2a1b787ae9abe4c37926edc89494092b9413df2ef1eac16a60a71f6a60351",
     "weights_file": "model.safetensors"
   },
@@ -211,7 +211,7 @@
     "parameters": 116228608,
     "optimizer_updates": 4797,
     "repo_id": "ypwhere/attnres4babylm2026-100m-l32-baseline-s1339",
-    "revision": "81dacd8a3c57ac3de0ea10352ef44d6c6299356e",
+    "revision": "17ec3df3128459da30bdc80af46f783670885066",
     "weights_sha256": "41977a1b27f856be106bfb036c3642ae3d74ca6df6b7add26ff8d7eaed260d85",
     "weights_file": "model.safetensors"
   },
@@ -223,7 +223,7 @@
     "parameters": 116229193,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-static-s1337",
-    "revision": "377e72f97d6ce6f60c814e1407868799fd9f6050",
+    "revision": "2a9e7f9bf09650440de809599d32334afd5e5b01",
     "weights_sha256": "c232dec7c06d25fa34f86d5209136b0095ddae02fcae42807133c490ce53f5bc",
     "weights_file": "model.safetensors"
   },
@@ -235,7 +235,7 @@
     "parameters": 116229193,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-static-s1338",
-    "revision": "b787e94a7fb67faea60696b5a3cccfff6efab5c6",
+    "revision": "1ed47014b277c54a267a160d509cd77d1f39476d",
     "weights_sha256": "128478d53192882bae22634971d67a13e5d506d673ade5f835f0372751914580",
     "weights_file": "model.safetensors"
   },
@@ -247,7 +247,7 @@
     "parameters": 116229193,
     "optimizer_updates": 471,
     "repo_id": "ypwhere/attnres4babylm2026-10m-l32-static-s1339",
-    "revision": "63745d7543efe7f11c047e63d07aafed4fba2f8f",
+    "revision": "925140d83fe85c87c1cf320a1e7addee6321b472",
     "weights_sha256": "afaf0e10a6e5cc5abab0d7c2c700a37feeed1278ccebdfa8a0cd1a92fba5ce40",
     "weights_file": "model.safetensors"
   }
