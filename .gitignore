@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv*/
+.env*
+.netrc
+wandb/
+outputs/
+hf-models/
+external/
+data/babylm_officialdev/
+data/babylm_100m_officialdev/
+data/babylm_smoke
+config/generated/
+*.pt
+*.safetensors
+.DS_Store

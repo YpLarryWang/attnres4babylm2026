@@ -1,0 +1,41 @@
+[
+  {
+    "arm": "baseline",
+    "mean_seconds": 6.237240378886539,
+    "sd_repeat_means": 0.024903026756025876,
+    "repeat_means": [
+      6.2086347141070295,
+      6.2540824431489455,
+      6.249003979403642
+    ],
+    "tokens_per_update": 262144,
+    "tokens_per_second": 42028.84353910334,
+    "relative_to_baseline": 1.0
+  },
+  {
+    "arm": "static",
+    "mean_seconds": 8.861534000601386,
+    "sd_repeat_means": 0.2798865302500036,
+    "repeat_means": [
+      8.564443643801496,
+      9.120258395452401,
+      8.899899962550261
+    ],
+    "tokens_per_update": 262144,
+    "tokens_per_second": 29582.237114049287,
+    "relative_to_baseline": 1.420745948897248
+  },
+  {
+    "arm": "dynamic",
+    "mean_seconds": 10.229956255548556,
+    "sd_repeat_means": 0.006069452473964776,
+    "repeat_means": [
+      10.224022191992844,
+      10.236152593849692,
+      10.22969398080313
+    ],
+    "tokens_per_update": 262144,
+    "tokens_per_second": 25625.134013434075,
+    "relative_to_baseline": 1.640141414170539
+  }
+]

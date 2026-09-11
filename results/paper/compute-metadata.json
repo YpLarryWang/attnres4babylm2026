@@ -1,0 +1,7011 @@
+{
+  "arms": {
+    "baseline": {
+      "config": {
+        "block_size": 512,
+        "vocab_size": 16000,
+        "n_layer": 32,
+        "n_head": 8,
+        "n_embd": 512,
+        "dropout": 0.1,
+        "bias": false,
+        "use_rmsnorm": true,
+        "use_swiglu": true,
+        "swiglu_mult": 2.6666666666666665,
+        "use_rope": true,
+        "use_attn_gate": true,
+        "use_attn_res": false,
+        "use_static_attn_res": false,
+        "attn_res_block_size": 8
+      },
+      "unique_parameter_count": 116228608,
+      "parameter_shapes": {
+        "transformer.wte.weight": [
+          16000,
+          512
+        ],
+        "transformer.h.0.ln_1.weight": [
+          512
+        ],
+        "transformer.h.0.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.0.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.0.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.0.ln_2.weight": [
+          512
+        ],
+        "transformer.h.0.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.0.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.0.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.1.ln_1.weight": [
+          512
+        ],
+        "transformer.h.1.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.1.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.1.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.1.ln_2.weight": [
+          512
+        ],
+        "transformer.h.1.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.1.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.1.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.2.ln_1.weight": [
+          512
+        ],
+        "transformer.h.2.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.2.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.2.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.2.ln_2.weight": [
+          512
+        ],
+        "transformer.h.2.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.2.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.2.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.3.ln_1.weight": [
+          512
+        ],
+        "transformer.h.3.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.3.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.3.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.3.ln_2.weight": [
+          512
+        ],
+        "transformer.h.3.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.3.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.3.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.4.ln_1.weight": [
+          512
+        ],
+        "transformer.h.4.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.4.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.4.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.4.ln_2.weight": [
+          512
+        ],
+        "transformer.h.4.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.4.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.4.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.5.ln_1.weight": [
+          512
+        ],
+        "transformer.h.5.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.5.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.5.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.5.ln_2.weight": [
+          512
+        ],
+        "transformer.h.5.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.5.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.5.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.6.ln_1.weight": [
+          512
+        ],
+        "transformer.h.6.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.6.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.6.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.6.ln_2.weight": [
+          512
+        ],
+        "transformer.h.6.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.6.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.6.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.7.ln_1.weight": [
+          512
+        ],
+        "transformer.h.7.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.7.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.7.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.7.ln_2.weight": [
+          512
+        ],
+        "transformer.h.7.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.7.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.7.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.8.ln_1.weight": [
+          512
+        ],
+        "transformer.h.8.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.8.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.8.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.8.ln_2.weight": [
+          512
+        ],
+        "transformer.h.8.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.8.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.8.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.9.ln_1.weight": [
+          512
+        ],
+        "transformer.h.9.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.9.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.9.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.9.ln_2.weight": [
+          512
+        ],
+        "transformer.h.9.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.9.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.9.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.10.ln_1.weight": [
+          512
+        ],
+        "transformer.h.10.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.10.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.10.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.10.ln_2.weight": [
+          512
+        ],
+        "transformer.h.10.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.10.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.10.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.11.ln_1.weight": [
+          512
+        ],
+        "transformer.h.11.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.11.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.11.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.11.ln_2.weight": [
+          512
+        ],
+        "transformer.h.11.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.11.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.11.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.12.ln_1.weight": [
+          512
+        ],
+        "transformer.h.12.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.12.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.12.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.12.ln_2.weight": [
+          512
+        ],
+        "transformer.h.12.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.12.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.12.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.13.ln_1.weight": [
+          512
+        ],
+        "transformer.h.13.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.13.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.13.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.13.ln_2.weight": [
+          512
+        ],
+        "transformer.h.13.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.13.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.13.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.14.ln_1.weight": [
+          512
+        ],
+        "transformer.h.14.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.14.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.14.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.14.ln_2.weight": [
+          512
+        ],
+        "transformer.h.14.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.14.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.14.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.15.ln_1.weight": [
+          512
+        ],
+        "transformer.h.15.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.15.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.15.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.15.ln_2.weight": [
+          512
+        ],
+        "transformer.h.15.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.15.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.15.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.16.ln_1.weight": [
+          512
+        ],
+        "transformer.h.16.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.16.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.16.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.16.ln_2.weight": [
+          512
+        ],
+        "transformer.h.16.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.16.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.16.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.17.ln_1.weight": [
+          512
+        ],
+        "transformer.h.17.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.17.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.17.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.17.ln_2.weight": [
+          512
+        ],
+        "transformer.h.17.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.17.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.17.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.18.ln_1.weight": [
+          512
+        ],
+        "transformer.h.18.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.18.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.18.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.18.ln_2.weight": [
+          512
+        ],
+        "transformer.h.18.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.18.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.18.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.19.ln_1.weight": [
+          512
+        ],
+        "transformer.h.19.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.19.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.19.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.19.ln_2.weight": [
+          512
+        ],
+        "transformer.h.19.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.19.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.19.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.20.ln_1.weight": [
+          512
+        ],
+        "transformer.h.20.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.20.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.20.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.20.ln_2.weight": [
+          512
+        ],
+        "transformer.h.20.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.20.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.20.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.21.ln_1.weight": [
+          512
+        ],
+        "transformer.h.21.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.21.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.21.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.21.ln_2.weight": [
+          512
+        ],
+        "transformer.h.21.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.21.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.21.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.22.ln_1.weight": [
+          512
+        ],
+        "transformer.h.22.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.22.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.22.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.22.ln_2.weight": [
+          512
+        ],
+        "transformer.h.22.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.22.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.22.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.23.ln_1.weight": [
+          512
+        ],
+        "transformer.h.23.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.23.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.23.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.23.ln_2.weight": [
+          512
+        ],
+        "transformer.h.23.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.23.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.23.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.24.ln_1.weight": [
+          512
+        ],
+        "transformer.h.24.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.24.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.24.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.24.ln_2.weight": [
+          512
+        ],
+        "transformer.h.24.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.24.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.24.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.25.ln_1.weight": [
+          512
+        ],
+        "transformer.h.25.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.25.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.25.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.25.ln_2.weight": [
+          512
+        ],
+        "transformer.h.25.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.25.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.25.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.26.ln_1.weight": [
+          512
+        ],
+        "transformer.h.26.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.26.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.26.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.26.ln_2.weight": [
+          512
+        ],
+        "transformer.h.26.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.26.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.26.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.27.ln_1.weight": [
+          512
+        ],
+        "transformer.h.27.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.27.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.27.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.27.ln_2.weight": [
+          512
+        ],
+        "transformer.h.27.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.27.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.27.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.28.ln_1.weight": [
+          512
+        ],
+        "transformer.h.28.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.28.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.28.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.28.ln_2.weight": [
+          512
+        ],
+        "transformer.h.28.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.28.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.28.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.29.ln_1.weight": [
+          512
+        ],
+        "transformer.h.29.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.29.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.29.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.29.ln_2.weight": [
+          512
+        ],
+        "transformer.h.29.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.29.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.29.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.30.ln_1.weight": [
+          512
+        ],
+        "transformer.h.30.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.30.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.30.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.30.ln_2.weight": [
+          512
+        ],
+        "transformer.h.30.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.30.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.30.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.31.ln_1.weight": [
+          512
+        ],
+        "transformer.h.31.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.31.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.31.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.31.ln_2.weight": [
+          512
+        ],
+        "transformer.h.31.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.31.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.31.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.ln_f.weight": [
+          512
+        ]
+      },
+      "linear_shapes": {
+        "transformer.h.0.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.0.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.0.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.1.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.2.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.3.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.4.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.5.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.6.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.7.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.8.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.9.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.10.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.11.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.12.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.13.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.14.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.15.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.16.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.17.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.18.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.19.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.20.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.21.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.22.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.23.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.24.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.25.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.26.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.27.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.28.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.29.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.30.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.31.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "lm_head": {
+          "in": 512,
+          "out": 16000,
+          "bias": false
+        }
+      },
+      "embedding_head_tied": true,
+      "actual_swiglu_hidden": 1344,
+      "routing_sites": [],
+      "sum_routing_sources_per_forward": 0
+    },
+    "static": {
+      "config": {
+        "block_size": 512,
+        "vocab_size": 16000,
+        "n_layer": 32,
+        "n_head": 8,
+        "n_embd": 512,
+        "dropout": 0.1,
+        "bias": false,
+        "use_rmsnorm": true,
+        "use_swiglu": true,
+        "swiglu_mult": 2.6666666666666665,
+        "use_rope": true,
+        "use_attn_gate": true,
+        "use_attn_res": true,
+        "use_static_attn_res": true,
+        "attn_res_block_size": 8
+      },
+      "unique_parameter_count": 116229193,
+      "parameter_shapes": {
+        "attn_res_qf": [
+          9
+        ],
+        "transformer.wte.weight": [
+          16000,
+          512
+        ],
+        "transformer.h.0.attn_res_q1": [
+          9
+        ],
+        "transformer.h.0.attn_res_q2": [
+          9
+        ],
+        "transformer.h.0.ln_1.weight": [
+          512
+        ],
+        "transformer.h.0.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.0.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.0.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.0.ln_2.weight": [
+          512
+        ],
+        "transformer.h.0.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.0.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.0.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.1.attn_res_q1": [
+          9
+        ],
+        "transformer.h.1.attn_res_q2": [
+          9
+        ],
+        "transformer.h.1.ln_1.weight": [
+          512
+        ],
+        "transformer.h.1.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.1.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.1.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.1.ln_2.weight": [
+          512
+        ],
+        "transformer.h.1.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.1.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.1.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.2.attn_res_q1": [
+          9
+        ],
+        "transformer.h.2.attn_res_q2": [
+          9
+        ],
+        "transformer.h.2.ln_1.weight": [
+          512
+        ],
+        "transformer.h.2.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.2.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.2.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.2.ln_2.weight": [
+          512
+        ],
+        "transformer.h.2.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.2.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.2.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.3.attn_res_q1": [
+          9
+        ],
+        "transformer.h.3.attn_res_q2": [
+          9
+        ],
+        "transformer.h.3.ln_1.weight": [
+          512
+        ],
+        "transformer.h.3.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.3.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.3.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.3.ln_2.weight": [
+          512
+        ],
+        "transformer.h.3.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.3.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.3.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.4.attn_res_q1": [
+          9
+        ],
+        "transformer.h.4.attn_res_q2": [
+          9
+        ],
+        "transformer.h.4.ln_1.weight": [
+          512
+        ],
+        "transformer.h.4.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.4.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.4.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.4.ln_2.weight": [
+          512
+        ],
+        "transformer.h.4.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.4.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.4.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.5.attn_res_q1": [
+          9
+        ],
+        "transformer.h.5.attn_res_q2": [
+          9
+        ],
+        "transformer.h.5.ln_1.weight": [
+          512
+        ],
+        "transformer.h.5.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.5.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.5.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.5.ln_2.weight": [
+          512
+        ],
+        "transformer.h.5.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.5.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.5.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.6.attn_res_q1": [
+          9
+        ],
+        "transformer.h.6.attn_res_q2": [
+          9
+        ],
+        "transformer.h.6.ln_1.weight": [
+          512
+        ],
+        "transformer.h.6.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.6.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.6.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.6.ln_2.weight": [
+          512
+        ],
+        "transformer.h.6.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.6.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.6.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.7.attn_res_q1": [
+          9
+        ],
+        "transformer.h.7.attn_res_q2": [
+          9
+        ],
+        "transformer.h.7.ln_1.weight": [
+          512
+        ],
+        "transformer.h.7.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.7.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.7.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.7.ln_2.weight": [
+          512
+        ],
+        "transformer.h.7.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.7.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.7.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.8.attn_res_q1": [
+          9
+        ],
+        "transformer.h.8.attn_res_q2": [
+          9
+        ],
+        "transformer.h.8.ln_1.weight": [
+          512
+        ],
+        "transformer.h.8.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.8.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.8.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.8.ln_2.weight": [
+          512
+        ],
+        "transformer.h.8.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.8.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.8.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.9.attn_res_q1": [
+          9
+        ],
+        "transformer.h.9.attn_res_q2": [
+          9
+        ],
+        "transformer.h.9.ln_1.weight": [
+          512
+        ],
+        "transformer.h.9.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.9.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.9.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.9.ln_2.weight": [
+          512
+        ],
+        "transformer.h.9.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.9.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.9.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.10.attn_res_q1": [
+          9
+        ],
+        "transformer.h.10.attn_res_q2": [
+          9
+        ],
+        "transformer.h.10.ln_1.weight": [
+          512
+        ],
+        "transformer.h.10.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.10.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.10.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.10.ln_2.weight": [
+          512
+        ],
+        "transformer.h.10.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.10.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.10.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.11.attn_res_q1": [
+          9
+        ],
+        "transformer.h.11.attn_res_q2": [
+          9
+        ],
+        "transformer.h.11.ln_1.weight": [
+          512
+        ],
+        "transformer.h.11.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.11.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.11.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.11.ln_2.weight": [
+          512
+        ],
+        "transformer.h.11.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.11.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.11.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.12.attn_res_q1": [
+          9
+        ],
+        "transformer.h.12.attn_res_q2": [
+          9
+        ],
+        "transformer.h.12.ln_1.weight": [
+          512
+        ],
+        "transformer.h.12.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.12.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.12.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.12.ln_2.weight": [
+          512
+        ],
+        "transformer.h.12.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.12.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.12.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.13.attn_res_q1": [
+          9
+        ],
+        "transformer.h.13.attn_res_q2": [
+          9
+        ],
+        "transformer.h.13.ln_1.weight": [
+          512
+        ],
+        "transformer.h.13.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.13.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.13.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.13.ln_2.weight": [
+          512
+        ],
+        "transformer.h.13.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.13.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.13.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.14.attn_res_q1": [
+          9
+        ],
+        "transformer.h.14.attn_res_q2": [
+          9
+        ],
+        "transformer.h.14.ln_1.weight": [
+          512
+        ],
+        "transformer.h.14.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.14.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.14.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.14.ln_2.weight": [
+          512
+        ],
+        "transformer.h.14.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.14.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.14.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.15.attn_res_q1": [
+          9
+        ],
+        "transformer.h.15.attn_res_q2": [
+          9
+        ],
+        "transformer.h.15.ln_1.weight": [
+          512
+        ],
+        "transformer.h.15.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.15.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.15.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.15.ln_2.weight": [
+          512
+        ],
+        "transformer.h.15.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.15.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.15.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.16.attn_res_q1": [
+          9
+        ],
+        "transformer.h.16.attn_res_q2": [
+          9
+        ],
+        "transformer.h.16.ln_1.weight": [
+          512
+        ],
+        "transformer.h.16.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.16.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.16.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.16.ln_2.weight": [
+          512
+        ],
+        "transformer.h.16.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.16.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.16.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.17.attn_res_q1": [
+          9
+        ],
+        "transformer.h.17.attn_res_q2": [
+          9
+        ],
+        "transformer.h.17.ln_1.weight": [
+          512
+        ],
+        "transformer.h.17.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.17.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.17.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.17.ln_2.weight": [
+          512
+        ],
+        "transformer.h.17.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.17.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.17.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.18.attn_res_q1": [
+          9
+        ],
+        "transformer.h.18.attn_res_q2": [
+          9
+        ],
+        "transformer.h.18.ln_1.weight": [
+          512
+        ],
+        "transformer.h.18.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.18.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.18.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.18.ln_2.weight": [
+          512
+        ],
+        "transformer.h.18.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.18.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.18.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.19.attn_res_q1": [
+          9
+        ],
+        "transformer.h.19.attn_res_q2": [
+          9
+        ],
+        "transformer.h.19.ln_1.weight": [
+          512
+        ],
+        "transformer.h.19.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.19.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.19.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.19.ln_2.weight": [
+          512
+        ],
+        "transformer.h.19.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.19.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.19.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.20.attn_res_q1": [
+          9
+        ],
+        "transformer.h.20.attn_res_q2": [
+          9
+        ],
+        "transformer.h.20.ln_1.weight": [
+          512
+        ],
+        "transformer.h.20.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.20.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.20.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.20.ln_2.weight": [
+          512
+        ],
+        "transformer.h.20.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.20.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.20.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.21.attn_res_q1": [
+          9
+        ],
+        "transformer.h.21.attn_res_q2": [
+          9
+        ],
+        "transformer.h.21.ln_1.weight": [
+          512
+        ],
+        "transformer.h.21.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.21.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.21.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.21.ln_2.weight": [
+          512
+        ],
+        "transformer.h.21.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.21.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.21.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.22.attn_res_q1": [
+          9
+        ],
+        "transformer.h.22.attn_res_q2": [
+          9
+        ],
+        "transformer.h.22.ln_1.weight": [
+          512
+        ],
+        "transformer.h.22.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.22.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.22.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.22.ln_2.weight": [
+          512
+        ],
+        "transformer.h.22.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.22.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.22.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.23.attn_res_q1": [
+          9
+        ],
+        "transformer.h.23.attn_res_q2": [
+          9
+        ],
+        "transformer.h.23.ln_1.weight": [
+          512
+        ],
+        "transformer.h.23.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.23.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.23.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.23.ln_2.weight": [
+          512
+        ],
+        "transformer.h.23.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.23.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.23.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.24.attn_res_q1": [
+          9
+        ],
+        "transformer.h.24.attn_res_q2": [
+          9
+        ],
+        "transformer.h.24.ln_1.weight": [
+          512
+        ],
+        "transformer.h.24.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.24.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.24.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.24.ln_2.weight": [
+          512
+        ],
+        "transformer.h.24.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.24.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.24.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.25.attn_res_q1": [
+          9
+        ],
+        "transformer.h.25.attn_res_q2": [
+          9
+        ],
+        "transformer.h.25.ln_1.weight": [
+          512
+        ],
+        "transformer.h.25.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.25.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.25.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.25.ln_2.weight": [
+          512
+        ],
+        "transformer.h.25.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.25.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.25.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.26.attn_res_q1": [
+          9
+        ],
+        "transformer.h.26.attn_res_q2": [
+          9
+        ],
+        "transformer.h.26.ln_1.weight": [
+          512
+        ],
+        "transformer.h.26.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.26.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.26.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.26.ln_2.weight": [
+          512
+        ],
+        "transformer.h.26.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.26.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.26.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.27.attn_res_q1": [
+          9
+        ],
+        "transformer.h.27.attn_res_q2": [
+          9
+        ],
+        "transformer.h.27.ln_1.weight": [
+          512
+        ],
+        "transformer.h.27.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.27.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.27.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.27.ln_2.weight": [
+          512
+        ],
+        "transformer.h.27.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.27.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.27.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.28.attn_res_q1": [
+          9
+        ],
+        "transformer.h.28.attn_res_q2": [
+          9
+        ],
+        "transformer.h.28.ln_1.weight": [
+          512
+        ],
+        "transformer.h.28.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.28.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.28.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.28.ln_2.weight": [
+          512
+        ],
+        "transformer.h.28.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.28.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.28.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.29.attn_res_q1": [
+          9
+        ],
+        "transformer.h.29.attn_res_q2": [
+          9
+        ],
+        "transformer.h.29.ln_1.weight": [
+          512
+        ],
+        "transformer.h.29.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.29.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.29.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.29.ln_2.weight": [
+          512
+        ],
+        "transformer.h.29.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.29.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.29.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.30.attn_res_q1": [
+          9
+        ],
+        "transformer.h.30.attn_res_q2": [
+          9
+        ],
+        "transformer.h.30.ln_1.weight": [
+          512
+        ],
+        "transformer.h.30.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.30.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.30.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.30.ln_2.weight": [
+          512
+        ],
+        "transformer.h.30.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.30.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.30.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.31.attn_res_q1": [
+          9
+        ],
+        "transformer.h.31.attn_res_q2": [
+          9
+        ],
+        "transformer.h.31.ln_1.weight": [
+          512
+        ],
+        "transformer.h.31.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.31.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.31.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.31.ln_2.weight": [
+          512
+        ],
+        "transformer.h.31.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.31.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.31.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.ln_f.weight": [
+          512
+        ]
+      },
+      "linear_shapes": {
+        "transformer.h.0.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.0.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.0.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.1.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.2.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.3.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.4.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.5.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.6.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.7.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.8.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.9.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.10.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.11.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.12.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.13.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.14.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.15.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.16.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.17.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.18.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.19.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.20.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.21.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.22.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.23.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.24.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.25.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.26.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.27.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.28.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.29.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.30.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.31.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "lm_head": {
+          "in": 512,
+          "out": 16000,
+          "bias": false
+        }
+      },
+      "embedding_head_tied": true,
+      "actual_swiglu_hidden": 1344,
+      "routing_sites": [
+        {
+          "site": "layer0.pre_attention",
+          "sources": 1
+        },
+        {
+          "site": "layer0.pre_mlp",
+          "sources": 2
+        },
+        {
+          "site": "layer1.pre_attention",
+          "sources": 2
+        },
+        {
+          "site": "layer1.pre_mlp",
+          "sources": 2
+        },
+        {
+          "site": "layer2.pre_attention",
+          "sources": 2
+        },
+        {
+          "site": "layer2.pre_mlp",
+          "sources": 2
+        },
+        {
+          "site": "layer3.pre_attention",
+          "sources": 2
+        },
+        {
+          "site": "layer3.pre_mlp",
+          "sources": 2
+        },
+        {
+          "site": "layer4.pre_attention",
+          "sources": 2
+        },
+        {
+          "site": "layer4.pre_mlp",
+          "sources": 3
+        },
+        {
+          "site": "layer5.pre_attention",
+          "sources": 3
+        },
+        {
+          "site": "layer5.pre_mlp",
+          "sources": 3
+        },
+        {
+          "site": "layer6.pre_attention",
+          "sources": 3
+        },
+        {
+          "site": "layer6.pre_mlp",
+          "sources": 3
+        },
+        {
+          "site": "layer7.pre_attention",
+          "sources": 3
+        },
+        {
+          "site": "layer7.pre_mlp",
+          "sources": 3
+        },
+        {
+          "site": "layer8.pre_attention",
+          "sources": 3
+        },
+        {
+          "site": "layer8.pre_mlp",
+          "sources": 4
+        },
+        {
+          "site": "layer9.pre_attention",
+          "sources": 4
+        },
+        {
+          "site": "layer9.pre_mlp",
+          "sources": 4
+        },
+        {
+          "site": "layer10.pre_attention",
+          "sources": 4
+        },
+        {
+          "site": "layer10.pre_mlp",
+          "sources": 4
+        },
+        {
+          "site": "layer11.pre_attention",
+          "sources": 4
+        },
+        {
+          "site": "layer11.pre_mlp",
+          "sources": 4
+        },
+        {
+          "site": "layer12.pre_attention",
+          "sources": 4
+        },
+        {
+          "site": "layer12.pre_mlp",
+          "sources": 5
+        },
+        {
+          "site": "layer13.pre_attention",
+          "sources": 5
+        },
+        {
+          "site": "layer13.pre_mlp",
+          "sources": 5
+        },
+        {
+          "site": "layer14.pre_attention",
+          "sources": 5
+        },
+        {
+          "site": "layer14.pre_mlp",
+          "sources": 5
+        },
+        {
+          "site": "layer15.pre_attention",
+          "sources": 5
+        },
+        {
+          "site": "layer15.pre_mlp",
+          "sources": 5
+        },
+        {
+          "site": "layer16.pre_attention",
+          "sources": 5
+        },
+        {
+          "site": "layer16.pre_mlp",
+          "sources": 6
+        },
+        {
+          "site": "layer17.pre_attention",
+          "sources": 6
+        },
+        {
+          "site": "layer17.pre_mlp",
+          "sources": 6
+        },
+        {
+          "site": "layer18.pre_attention",
+          "sources": 6
+        },
+        {
+          "site": "layer18.pre_mlp",
+          "sources": 6
+        },
+        {
+          "site": "layer19.pre_attention",
+          "sources": 6
+        },
+        {
+          "site": "layer19.pre_mlp",
+          "sources": 6
+        },
+        {
+          "site": "layer20.pre_attention",
+          "sources": 6
+        },
+        {
+          "site": "layer20.pre_mlp",
+          "sources": 7
+        },
+        {
+          "site": "layer21.pre_attention",
+          "sources": 7
+        },
+        {
+          "site": "layer21.pre_mlp",
+          "sources": 7
+        },
+        {
+          "site": "layer22.pre_attention",
+          "sources": 7
+        },
+        {
+          "site": "layer22.pre_mlp",
+          "sources": 7
+        },
+        {
+          "site": "layer23.pre_attention",
+          "sources": 7
+        },
+        {
+          "site": "layer23.pre_mlp",
+          "sources": 7
+        },
+        {
+          "site": "layer24.pre_attention",
+          "sources": 7
+        },
+        {
+          "site": "layer24.pre_mlp",
+          "sources": 8
+        },
+        {
+          "site": "layer25.pre_attention",
+          "sources": 8
+        },
+        {
+          "site": "layer25.pre_mlp",
+          "sources": 8
+        },
+        {
+          "site": "layer26.pre_attention",
+          "sources": 8
+        },
+        {
+          "site": "layer26.pre_mlp",
+          "sources": 8
+        },
+        {
+          "site": "layer27.pre_attention",
+          "sources": 8
+        },
+        {
+          "site": "layer27.pre_mlp",
+          "sources": 8
+        },
+        {
+          "site": "layer28.pre_attention",
+          "sources": 8
+        },
+        {
+          "site": "layer28.pre_mlp",
+          "sources": 9
+        },
+        {
+          "site": "layer29.pre_attention",
+          "sources": 9
+        },
+        {
+          "site": "layer29.pre_mlp",
+          "sources": 9
+        },
+        {
+          "site": "layer30.pre_attention",
+          "sources": 9
+        },
+        {
+          "site": "layer30.pre_mlp",
+          "sources": 9
+        },
+        {
+          "site": "layer31.pre_attention",
+          "sources": 9
+        },
+        {
+          "site": "layer31.pre_mlp",
+          "sources": 9
+        },
+        {
+          "site": "final",
+          "sources": 9
+        }
+      ],
+      "sum_routing_sources_per_forward": 353
+    },
+    "dynamic": {
+      "config": {
+        "block_size": 512,
+        "vocab_size": 16000,
+        "n_layer": 32,
+        "n_head": 8,
+        "n_embd": 512,
+        "dropout": 0.1,
+        "bias": false,
+        "use_rmsnorm": true,
+        "use_swiglu": true,
+        "swiglu_mult": 2.6666666666666665,
+        "use_rope": true,
+        "use_attn_gate": true,
+        "use_attn_res": true,
+        "use_static_attn_res": false,
+        "attn_res_block_size": 8
+      },
+      "unique_parameter_count": 116295168,
+      "parameter_shapes": {
+        "attn_res_qf": [
+          512
+        ],
+        "transformer.wte.weight": [
+          16000,
+          512
+        ],
+        "transformer.h.0.attn_res_q1": [
+          512
+        ],
+        "transformer.h.0.attn_res_q2": [
+          512
+        ],
+        "transformer.h.0.ln_1.weight": [
+          512
+        ],
+        "transformer.h.0.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.0.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.0.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.0.ln_2.weight": [
+          512
+        ],
+        "transformer.h.0.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.0.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.0.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.0.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.0.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.1.attn_res_q1": [
+          512
+        ],
+        "transformer.h.1.attn_res_q2": [
+          512
+        ],
+        "transformer.h.1.ln_1.weight": [
+          512
+        ],
+        "transformer.h.1.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.1.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.1.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.1.ln_2.weight": [
+          512
+        ],
+        "transformer.h.1.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.1.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.1.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.1.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.1.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.2.attn_res_q1": [
+          512
+        ],
+        "transformer.h.2.attn_res_q2": [
+          512
+        ],
+        "transformer.h.2.ln_1.weight": [
+          512
+        ],
+        "transformer.h.2.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.2.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.2.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.2.ln_2.weight": [
+          512
+        ],
+        "transformer.h.2.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.2.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.2.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.2.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.2.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.3.attn_res_q1": [
+          512
+        ],
+        "transformer.h.3.attn_res_q2": [
+          512
+        ],
+        "transformer.h.3.ln_1.weight": [
+          512
+        ],
+        "transformer.h.3.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.3.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.3.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.3.ln_2.weight": [
+          512
+        ],
+        "transformer.h.3.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.3.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.3.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.3.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.3.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.4.attn_res_q1": [
+          512
+        ],
+        "transformer.h.4.attn_res_q2": [
+          512
+        ],
+        "transformer.h.4.ln_1.weight": [
+          512
+        ],
+        "transformer.h.4.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.4.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.4.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.4.ln_2.weight": [
+          512
+        ],
+        "transformer.h.4.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.4.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.4.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.4.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.4.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.5.attn_res_q1": [
+          512
+        ],
+        "transformer.h.5.attn_res_q2": [
+          512
+        ],
+        "transformer.h.5.ln_1.weight": [
+          512
+        ],
+        "transformer.h.5.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.5.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.5.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.5.ln_2.weight": [
+          512
+        ],
+        "transformer.h.5.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.5.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.5.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.5.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.5.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.6.attn_res_q1": [
+          512
+        ],
+        "transformer.h.6.attn_res_q2": [
+          512
+        ],
+        "transformer.h.6.ln_1.weight": [
+          512
+        ],
+        "transformer.h.6.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.6.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.6.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.6.ln_2.weight": [
+          512
+        ],
+        "transformer.h.6.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.6.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.6.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.6.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.6.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.7.attn_res_q1": [
+          512
+        ],
+        "transformer.h.7.attn_res_q2": [
+          512
+        ],
+        "transformer.h.7.ln_1.weight": [
+          512
+        ],
+        "transformer.h.7.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.7.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.7.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.7.ln_2.weight": [
+          512
+        ],
+        "transformer.h.7.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.7.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.7.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.7.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.7.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.8.attn_res_q1": [
+          512
+        ],
+        "transformer.h.8.attn_res_q2": [
+          512
+        ],
+        "transformer.h.8.ln_1.weight": [
+          512
+        ],
+        "transformer.h.8.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.8.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.8.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.8.ln_2.weight": [
+          512
+        ],
+        "transformer.h.8.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.8.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.8.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.8.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.8.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.9.attn_res_q1": [
+          512
+        ],
+        "transformer.h.9.attn_res_q2": [
+          512
+        ],
+        "transformer.h.9.ln_1.weight": [
+          512
+        ],
+        "transformer.h.9.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.9.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.9.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.9.ln_2.weight": [
+          512
+        ],
+        "transformer.h.9.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.9.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.9.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.9.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.9.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.10.attn_res_q1": [
+          512
+        ],
+        "transformer.h.10.attn_res_q2": [
+          512
+        ],
+        "transformer.h.10.ln_1.weight": [
+          512
+        ],
+        "transformer.h.10.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.10.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.10.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.10.ln_2.weight": [
+          512
+        ],
+        "transformer.h.10.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.10.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.10.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.10.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.10.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.11.attn_res_q1": [
+          512
+        ],
+        "transformer.h.11.attn_res_q2": [
+          512
+        ],
+        "transformer.h.11.ln_1.weight": [
+          512
+        ],
+        "transformer.h.11.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.11.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.11.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.11.ln_2.weight": [
+          512
+        ],
+        "transformer.h.11.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.11.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.11.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.11.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.11.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.12.attn_res_q1": [
+          512
+        ],
+        "transformer.h.12.attn_res_q2": [
+          512
+        ],
+        "transformer.h.12.ln_1.weight": [
+          512
+        ],
+        "transformer.h.12.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.12.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.12.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.12.ln_2.weight": [
+          512
+        ],
+        "transformer.h.12.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.12.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.12.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.12.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.12.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.13.attn_res_q1": [
+          512
+        ],
+        "transformer.h.13.attn_res_q2": [
+          512
+        ],
+        "transformer.h.13.ln_1.weight": [
+          512
+        ],
+        "transformer.h.13.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.13.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.13.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.13.ln_2.weight": [
+          512
+        ],
+        "transformer.h.13.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.13.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.13.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.13.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.13.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.14.attn_res_q1": [
+          512
+        ],
+        "transformer.h.14.attn_res_q2": [
+          512
+        ],
+        "transformer.h.14.ln_1.weight": [
+          512
+        ],
+        "transformer.h.14.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.14.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.14.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.14.ln_2.weight": [
+          512
+        ],
+        "transformer.h.14.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.14.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.14.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.14.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.14.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.15.attn_res_q1": [
+          512
+        ],
+        "transformer.h.15.attn_res_q2": [
+          512
+        ],
+        "transformer.h.15.ln_1.weight": [
+          512
+        ],
+        "transformer.h.15.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.15.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.15.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.15.ln_2.weight": [
+          512
+        ],
+        "transformer.h.15.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.15.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.15.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.15.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.15.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.16.attn_res_q1": [
+          512
+        ],
+        "transformer.h.16.attn_res_q2": [
+          512
+        ],
+        "transformer.h.16.ln_1.weight": [
+          512
+        ],
+        "transformer.h.16.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.16.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.16.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.16.ln_2.weight": [
+          512
+        ],
+        "transformer.h.16.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.16.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.16.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.16.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.16.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.17.attn_res_q1": [
+          512
+        ],
+        "transformer.h.17.attn_res_q2": [
+          512
+        ],
+        "transformer.h.17.ln_1.weight": [
+          512
+        ],
+        "transformer.h.17.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.17.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.17.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.17.ln_2.weight": [
+          512
+        ],
+        "transformer.h.17.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.17.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.17.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.17.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.17.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.18.attn_res_q1": [
+          512
+        ],
+        "transformer.h.18.attn_res_q2": [
+          512
+        ],
+        "transformer.h.18.ln_1.weight": [
+          512
+        ],
+        "transformer.h.18.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.18.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.18.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.18.ln_2.weight": [
+          512
+        ],
+        "transformer.h.18.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.18.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.18.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.18.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.18.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.19.attn_res_q1": [
+          512
+        ],
+        "transformer.h.19.attn_res_q2": [
+          512
+        ],
+        "transformer.h.19.ln_1.weight": [
+          512
+        ],
+        "transformer.h.19.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.19.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.19.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.19.ln_2.weight": [
+          512
+        ],
+        "transformer.h.19.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.19.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.19.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.19.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.19.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.20.attn_res_q1": [
+          512
+        ],
+        "transformer.h.20.attn_res_q2": [
+          512
+        ],
+        "transformer.h.20.ln_1.weight": [
+          512
+        ],
+        "transformer.h.20.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.20.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.20.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.20.ln_2.weight": [
+          512
+        ],
+        "transformer.h.20.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.20.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.20.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.20.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.20.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.21.attn_res_q1": [
+          512
+        ],
+        "transformer.h.21.attn_res_q2": [
+          512
+        ],
+        "transformer.h.21.ln_1.weight": [
+          512
+        ],
+        "transformer.h.21.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.21.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.21.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.21.ln_2.weight": [
+          512
+        ],
+        "transformer.h.21.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.21.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.21.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.21.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.21.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.22.attn_res_q1": [
+          512
+        ],
+        "transformer.h.22.attn_res_q2": [
+          512
+        ],
+        "transformer.h.22.ln_1.weight": [
+          512
+        ],
+        "transformer.h.22.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.22.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.22.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.22.ln_2.weight": [
+          512
+        ],
+        "transformer.h.22.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.22.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.22.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.22.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.22.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.23.attn_res_q1": [
+          512
+        ],
+        "transformer.h.23.attn_res_q2": [
+          512
+        ],
+        "transformer.h.23.ln_1.weight": [
+          512
+        ],
+        "transformer.h.23.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.23.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.23.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.23.ln_2.weight": [
+          512
+        ],
+        "transformer.h.23.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.23.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.23.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.23.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.23.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.24.attn_res_q1": [
+          512
+        ],
+        "transformer.h.24.attn_res_q2": [
+          512
+        ],
+        "transformer.h.24.ln_1.weight": [
+          512
+        ],
+        "transformer.h.24.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.24.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.24.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.24.ln_2.weight": [
+          512
+        ],
+        "transformer.h.24.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.24.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.24.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.24.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.24.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.25.attn_res_q1": [
+          512
+        ],
+        "transformer.h.25.attn_res_q2": [
+          512
+        ],
+        "transformer.h.25.ln_1.weight": [
+          512
+        ],
+        "transformer.h.25.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.25.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.25.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.25.ln_2.weight": [
+          512
+        ],
+        "transformer.h.25.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.25.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.25.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.25.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.25.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.26.attn_res_q1": [
+          512
+        ],
+        "transformer.h.26.attn_res_q2": [
+          512
+        ],
+        "transformer.h.26.ln_1.weight": [
+          512
+        ],
+        "transformer.h.26.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.26.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.26.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.26.ln_2.weight": [
+          512
+        ],
+        "transformer.h.26.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.26.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.26.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.26.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.26.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.27.attn_res_q1": [
+          512
+        ],
+        "transformer.h.27.attn_res_q2": [
+          512
+        ],
+        "transformer.h.27.ln_1.weight": [
+          512
+        ],
+        "transformer.h.27.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.27.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.27.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.27.ln_2.weight": [
+          512
+        ],
+        "transformer.h.27.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.27.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.27.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.27.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.27.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.28.attn_res_q1": [
+          512
+        ],
+        "transformer.h.28.attn_res_q2": [
+          512
+        ],
+        "transformer.h.28.ln_1.weight": [
+          512
+        ],
+        "transformer.h.28.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.28.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.28.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.28.ln_2.weight": [
+          512
+        ],
+        "transformer.h.28.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.28.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.28.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.28.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.28.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.29.attn_res_q1": [
+          512
+        ],
+        "transformer.h.29.attn_res_q2": [
+          512
+        ],
+        "transformer.h.29.ln_1.weight": [
+          512
+        ],
+        "transformer.h.29.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.29.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.29.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.29.ln_2.weight": [
+          512
+        ],
+        "transformer.h.29.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.29.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.29.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.29.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.29.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.30.attn_res_q1": [
+          512
+        ],
+        "transformer.h.30.attn_res_q2": [
+          512
+        ],
+        "transformer.h.30.ln_1.weight": [
+          512
+        ],
+        "transformer.h.30.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.30.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.30.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.30.ln_2.weight": [
+          512
+        ],
+        "transformer.h.30.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.30.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.30.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.30.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.30.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.h.31.attn_res_q1": [
+          512
+        ],
+        "transformer.h.31.attn_res_q2": [
+          512
+        ],
+        "transformer.h.31.ln_1.weight": [
+          512
+        ],
+        "transformer.h.31.attn.c_attn.weight": [
+          1536,
+          512
+        ],
+        "transformer.h.31.attn.c_proj.weight": [
+          512,
+          512
+        ],
+        "transformer.h.31.attn.attn_gate.weight": [
+          512,
+          512
+        ],
+        "transformer.h.31.ln_2.weight": [
+          512
+        ],
+        "transformer.h.31.mlp.c_gate.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.31.mlp.c_val.weight": [
+          1344,
+          512
+        ],
+        "transformer.h.31.mlp.c_proj.weight": [
+          512,
+          1344
+        ],
+        "transformer.h.31.attn_res_norm1.weight": [
+          512
+        ],
+        "transformer.h.31.attn_res_norm2.weight": [
+          512
+        ],
+        "transformer.ln_f.weight": [
+          512
+        ],
+        "attn_res_normf.weight": [
+          512
+        ]
+      },
+      "linear_shapes": {
+        "transformer.h.0.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.0.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.0.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.0.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.1.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.1.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.2.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.2.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.3.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.3.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.4.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.4.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.5.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.5.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.6.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.6.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.7.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.7.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.8.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.8.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.9.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.9.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.10.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.10.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.11.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.11.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.12.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.12.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.13.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.13.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.14.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.14.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.15.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.15.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.16.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.16.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.17.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.17.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.18.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.18.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.19.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.19.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.20.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.20.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.21.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.21.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.22.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.22.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.23.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.23.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.24.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.24.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.25.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.25.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.26.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.26.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.27.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.27.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.28.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.28.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.29.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.29.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.30.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.30.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.attn.c_attn": {
+          "in": 512,
+          "out": 1536,
+          "bias": false
+        },
+        "transformer.h.31.attn.c_proj": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.attn.attn_gate": {
+          "in": 512,
+          "out": 512,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_gate": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_val": {
+          "in": 512,
+          "out": 1344,
+          "bias": false
+        },
+        "transformer.h.31.mlp.c_proj": {
+          "in": 1344,
+          "out": 512,
+          "bias": false
+        },
+        "lm_head": {
+          "in": 512,
+          "out": 16000,
+          "bias": false
+        }
+      },
+      "embedding_head_tied": true,
+      "actual_swiglu_hidden": 1344,
+      "routing_sites": [
+        {
+          "site": "layer0.pre_attention",
+          "sources": 1
+        },
+        {
+          "site": "layer0.pre_mlp",
+          "sources": 2
+        },
+        {
+          "site": "layer1.pre_attention",
+          "sources": 2
+        },
+        {
+          "site": "layer1.pre_mlp",
+          "sources": 2
+        },
+        {
+          "site": "layer2.pre_attention",
+          "sources": 2
+        },
+        {
+          "site": "layer2.pre_mlp",
+          "sources": 2
+        },
+        {
+          "site": "layer3.pre_attention",
+          "sources": 2
+        },
+        {
+          "site": "layer3.pre_mlp",
+          "sources": 2
+        },
+        {
+          "site": "layer4.pre_attention",
+          "sources": 2
+        },
+        {
+          "site": "layer4.pre_mlp",
+          "sources": 3
+        },
+        {
+          "site": "layer5.pre_attention",
+          "sources": 3
+        },
+        {
+          "site": "layer5.pre_mlp",
+          "sources": 3
+        },
+        {
+          "site": "layer6.pre_attention",
+          "sources": 3
+        },
+        {
+          "site": "layer6.pre_mlp",
+          "sources": 3
+        },
+        {
+          "site": "layer7.pre_attention",
+          "sources": 3
+        },
+        {
+          "site": "layer7.pre_mlp",
+          "sources": 3
+        },
+        {
+          "site": "layer8.pre_attention",
+          "sources": 3
+        },
+        {
+          "site": "layer8.pre_mlp",
+          "sources": 4
+        },
+        {
+          "site": "layer9.pre_attention",
+          "sources": 4
+        },
+        {
+          "site": "layer9.pre_mlp",
+          "sources": 4
+        },
+        {
+          "site": "layer10.pre_attention",
+          "sources": 4
+        },
+        {
+          "site": "layer10.pre_mlp",
+          "sources": 4
+        },
+        {
+          "site": "layer11.pre_attention",
+          "sources": 4
+        },
+        {
+          "site": "layer11.pre_mlp",
+          "sources": 4
+        },
+        {
+          "site": "layer12.pre_attention",
+          "sources": 4
+        },
+        {
+          "site": "layer12.pre_mlp",
+          "sources": 5
+        },
+        {
+          "site": "layer13.pre_attention",
+          "sources": 5
+        },
+        {
+          "site": "layer13.pre_mlp",
+          "sources": 5
+        },
+        {
+          "site": "layer14.pre_attention",
+          "sources": 5
+        },
+        {
+          "site": "layer14.pre_mlp",
+          "sources": 5
+        },
+        {
+          "site": "layer15.pre_attention",
+          "sources": 5
+        },
+        {
+          "site": "layer15.pre_mlp",
+          "sources": 5
+        },
+        {
+          "site": "layer16.pre_attention",
+          "sources": 5
+        },
+        {
+          "site": "layer16.pre_mlp",
+          "sources": 6
+        },
+        {
+          "site": "layer17.pre_attention",
+          "sources": 6
+        },
+        {
+          "site": "layer17.pre_mlp",
+          "sources": 6
+        },
+        {
+          "site": "layer18.pre_attention",
+          "sources": 6
+        },
+        {
+          "site": "layer18.pre_mlp",
+          "sources": 6
+        },
+        {
+          "site": "layer19.pre_attention",
+          "sources": 6
+        },
+        {
+          "site": "layer19.pre_mlp",
+          "sources": 6
+        },
+        {
+          "site": "layer20.pre_attention",
+          "sources": 6
+        },
+        {
+          "site": "layer20.pre_mlp",
+          "sources": 7
+        },
+        {
+          "site": "layer21.pre_attention",
+          "sources": 7
+        },
+        {
+          "site": "layer21.pre_mlp",
+          "sources": 7
+        },
+        {
+          "site": "layer22.pre_attention",
+          "sources": 7
+        },
+        {
+          "site": "layer22.pre_mlp",
+          "sources": 7
+        },
+        {
+          "site": "layer23.pre_attention",
+          "sources": 7
+        },
+        {
+          "site": "layer23.pre_mlp",
+          "sources": 7
+        },
+        {
+          "site": "layer24.pre_attention",
+          "sources": 7
+        },
+        {
+          "site": "layer24.pre_mlp",
+          "sources": 8
+        },
+        {
+          "site": "layer25.pre_attention",
+          "sources": 8
+        },
+        {
+          "site": "layer25.pre_mlp",
+          "sources": 8
+        },
+        {
+          "site": "layer26.pre_attention",
+          "sources": 8
+        },
+        {
+          "site": "layer26.pre_mlp",
+          "sources": 8
+        },
+        {
+          "site": "layer27.pre_attention",
+          "sources": 8
+        },
+        {
+          "site": "layer27.pre_mlp",
+          "sources": 8
+        },
+        {
+          "site": "layer28.pre_attention",
+          "sources": 8
+        },
+        {
+          "site": "layer28.pre_mlp",
+          "sources": 9
+        },
+        {
+          "site": "layer29.pre_attention",
+          "sources": 9
+        },
+        {
+          "site": "layer29.pre_mlp",
+          "sources": 9
+        },
+        {
+          "site": "layer30.pre_attention",
+          "sources": 9
+        },
+        {
+          "site": "layer30.pre_mlp",
+          "sources": 9
+        },
+        {
+          "site": "layer31.pre_attention",
+          "sources": 9
+        },
+        {
+          "site": "layer31.pre_mlp",
+          "sources": 9
+        },
+        {
+          "site": "final",
+          "sources": 9
+        }
+      ],
+      "sum_routing_sources_per_forward": 353
+    }
+  },
+  "training": {
+    "micro_batch": 8,
+    "sequence_length": 512,
+    "gradient_accumulation": 64,
+    "optimizer_updates": 471,
+    "tokens_per_update": 262144,
+    "total_training_tokens": 123469824,
+    "precision": "bfloat16 autocast",
+    "optimizer": "fused AdamW",
+    "gradient_checkpointing": false,
+    "compile": true
+  },
+  "counting_notes": [
+    "These are architecture and workload specifications, not measured FLOP counts.",
+    "FLOP estimates depend on whether multiply-add counts as two operations and whether attention is counted over a full square or a causal triangle.",
+    "Training performs forward and backward passes. Optimizer updates, validation, and evaluation are separate workloads.",
+    "Native inference with targets=None applies the vocabulary head only at the last position; training and full-token scoring apply it at every position.",
+    "Inference cost depends on input length, output length, and KV-cache policy.",
+    "Tensor stacking and memory traffic contribute to elapsed time without necessarily adding many floating-point operations."
+  ]
+}
